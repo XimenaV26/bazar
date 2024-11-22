@@ -100,3 +100,56 @@ h1 {
   width: 95%;
   margin: 0 auto;
 }
+footer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: "Whyte", Open sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.termns {
+  width: 40%;
+  cursor: pointer;
+}
+
+.termns li {
+  padding-left: 35px;
+  display: inline-block;
+}
+
+ul > li:before {
+  content: "";
+  display: list-item;
+  position: absolute;
+}
+
+li:first-child {
+  list-style-type: none;
+}
+.info {
+  display: flex;
+  gap: 30px;
+  padding-right: 50px;
+}
+.info img {
+  width: 16px;
+  height: 16px;
+}
+.city {
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.language {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.author {
+  font-weight: 300;
+}
