@@ -30,3 +30,73 @@
   font-style: normal;
   font-weight: 700;
 }
+
+h1 {
+  font-family: "Whyte", Open sans-serif;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.sections {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 250px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.section-subtitle {
+  color: white;
+  font-family: "Whyte", Open sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-title {
+  color: white;
+  font-family: "Whyte", Open sans-serif;
+  font-weight: 300;
+  font-size: 58px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bsk-teen-logo svg {
+  fill: white;
+  width: 250px;
+}
+
+.sections img {
+  width: 460px;
+  height: auto;
+}
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.3s;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+.line {
+  width: 95%;
+  margin: 0 auto;
+}
