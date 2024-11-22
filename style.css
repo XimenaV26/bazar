@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Whyte";
+  src: url("./fonts/whyte/ABCWhyte-Light.woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("./fonts/whyte/ABCWhyte-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("./fonts/whyte/ABCWhyte-Medium.woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Whyte";
+  src: url("./fonts/whyte/ABCWhyte-Bold.woff2");
+  font-style: normal;
+  font-weight: 700;
+}
